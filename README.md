@@ -1,4 +1,8 @@
 //WORK IN PROGRESS//
+ALREADY DONE:
+1. Movement Mechanic (Dash, WallJump, Jump, Walking)
+2. Player Character Animation
+
 Still work in progress:
 1. Project Name
 2. Map Design
