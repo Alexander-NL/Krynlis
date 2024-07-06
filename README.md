@@ -17,4 +17,6 @@ LINK:
 2. https://maaot.itch.io/mossy-cavern
 3. https://slashdashgamesstudio.itch.io/cave-background-assets
 4. https://www.youtube.com/watch?v=KqkMem4XeJQ&t=11s
-   
+
+Itch.io:
+https://alexnathan.itch.io/krynlis
