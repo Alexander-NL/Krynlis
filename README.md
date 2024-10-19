@@ -1,6 +1,6 @@
 ## About
-Sidescroller
-polished version with post processing for showcase and very scaleable 
+Krynlis is a time attack sidescroller that saves your fastest attempt using a Json file that is displayed in the Menu scene, The player can Dash, walljump, jump and run. 
+polished version with post processing and particle effects for showcase and it is very scaleable 
 
 <br>
 
@@ -8,18 +8,25 @@ polished version with post processing for showcase and very scaleable
 scripts:
 |  Script       | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
-| `FastestTimeDisplay.cs` | Displays the fastest time |
-| `Parallax.cs`  | Controls the Parallax Effects of the BG |
+| `Respawn.cs` | Respawns the player if the player collide with certain objects |
+| `Parallax.cs`  | Controls the Parallax Effects of the multiple BG |
 | `Movement.cs`  | Control the basic movements of the player like running, walljump, dash and jump |
-| `Timer.cs`  | Manages the time and saves the fastest time inside a Json file |
+| `Timer.cs`  | Manages the time in Minute and second system and saves the fastest time inside a Json file |
+| `ScreenFade.cs` | Handles the transition effects between stages |
 | `etc`  | |
 
+Post Processing used:
+- Bloom
+- Vignette
+- Gamma
+
 the game has:
-1. Movement Mechanic (Dash, WallJump, Jump, Walking)
+1. Movement Mechanic (Dash, WallJump, Jump, Walking) using the `Movement.cs` script
 2. Player Character Animation
-3. Map Design
-4. Map Asset
-5. Save Highscore using Json file
+3. Save Fastest time using Json file
+4. Displays the Fastest time
+5. Objects that kills the player that has to be avoided
+6. Post Processing and particle system
 
 <br>
 
@@ -42,12 +49,16 @@ ASSET USED:
 3. Parallax Cave Background Assets by SlashDashGamesStudio
 4. Eterna Forest Pokemon Pearl
 5. Free to Used SFX from Youtube
+6. Oak Woods — Environment Asset 🍂 by brullov
+7. Free - Hero's Journey - Moon Graveyard by Anokolisa
 
 LINK:
 1. https://rvros.itch.io/animated-pixel-hero
 2. https://maaot.itch.io/mossy-cavern
 3. https://slashdashgamesstudio.itch.io/cave-background-assets
 4. https://www.youtube.com/watch?v=KqkMem4XeJQ&t=11s
+6. https://brullov.itch.io/oak-woods
+7. https://anokolisa.itch.io/moon-graveyard
 
 Itch.io:
 https://alexnathan.itch.io/krynlis
