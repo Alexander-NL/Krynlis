@@ -13,6 +13,8 @@ public class Movement : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
     public AudioSource PlayerSound;
+    public ParticleSystem particle;
+
     [SerializeField] private bool isGrounded;
     [SerializeField] private bool WallJump =  false;
     [SerializeField] private bool HasGrounded = false;
@@ -89,6 +91,7 @@ public class Movement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftShift) && Time.time >= (lastDashTime + dashCooldown))
             {
                 anim.SetTrigger("Dash");
+                particle.Play();
                 isDashing = true;
                 dashTimeLeft = dashDuration;
                 lastDashTime = Time.time;
