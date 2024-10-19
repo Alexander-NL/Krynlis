@@ -2,6 +2,10 @@
 Krynlis is a time attack sidescroller that saves your fastest attempt using a Json file that is displayed in the Menu scene, The player can Dash, walljump, jump and run. 
 polished version with post processing and particle effects for showcase and it is very scaleable 
 
+<tbody>
+    <tr>
+      <td><img src="https://github.com/Alexander-NL/Krynlis/blob/main/Krynlis.gif"/></td>
+    </tr>
 <br>
 
 ## Scripts and Features
