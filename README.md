@@ -19,6 +19,9 @@ scripts:
 | `ScreenFade.cs` | Handles the transition effects between stages |
 | `etc`  | |
 
+This project also uses these package:
+- Universal RP
+
 Post Processing used:
 - Bloom
 - Vignette
@@ -55,6 +58,7 @@ ASSET USED:
 5. Free to Used SFX from Youtube
 6. Oak Woods — Environment Asset 🍂 by brullov
 7. Free - Hero's Journey - Moon Graveyard by Anokolisa
+8. Acadian Runes font
 
 LINK:
 1. https://rvros.itch.io/animated-pixel-hero
@@ -63,6 +67,7 @@ LINK:
 4. https://www.youtube.com/watch?v=KqkMem4XeJQ&t=11s
 6. https://brullov.itch.io/oak-woods
 7. https://anokolisa.itch.io/moon-graveyard
+8. https://www.dafont.com/acadian-runes.font
 
 Itch.io:
 https://alexnathan.itch.io/krynlis
