@@ -9,15 +9,15 @@ polished version with post processing and particle effects for showcase and it i
 <br>
 
 ## Scripts and Features
-scripts:
-|  Script       | Description                                                  |
-| ------------------- | ------------------------------------------------------------ |
-| `Respawn.cs` | Respawns the player if the player collide with certain objects |
-| `Parallax.cs`  | Controls the Parallax Effects of the multiple BG |
-| `Movement.cs`  | Control the basic movements of the player like running, walljump, dash and jump |
-| `Timer.cs`  | Manages the time in Minute and second system and saves the fastest time inside a Json file |
-| `ScreenFade.cs` | Handles the transition effects between stages |
-| `etc`  | |
+Scripts:
+|  Script       | Description                                     | Development Time |
+| ------------------- | ------------------------------------------|----------------- |
+| `Respawn.cs` | Respawns the player if the player collide with certain objects | ≈ 2 hours |
+| `Parallax.cs`  | Controls the Parallax Effects of the multiple BG | ≈ 1 hour |
+| `Movement.cs`  | Control the basic movements of the player like running, walljump, dash and jump | ≈ 4 hour |
+| `Timer.cs`  | Manages the time in Minute and second system and saves the fastest time inside a Json file | ≈ 4 hour |
+| `ScreenFade.cs` | Handles the transition effects between stages | ≈ 1 hour |
+| `etc`  | | ≈ 8 hours |
 
 This project also uses these package:
 - Universal RP
